@@ -7,13 +7,11 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
         android:label="Moto Dashboard"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@android:style/Theme.Material.NoTitleBar">
+        android:theme="@android:style/Theme.DeviceDefault.NoActionBar">
 
-        <!-- Clé API Google Maps (tu pourras remplacer YOUR_KEY par ta vraie clé) -->
+        <!-- Clé API Google Maps (Remplace YOUR_KEY par ta clé si tu en as une, sinon laisse tel quel pour tester) -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="YOUR_KEY_HERE" />
